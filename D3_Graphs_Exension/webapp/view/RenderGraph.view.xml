@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.sample.custom.graph.D3_Graphs_Exension.controller.RenderGraph" xmlns:m="customlib.graph" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Custom MultiLine Chart">
+					<content>
+						<m:MultiLineGraph id="mychart" />
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
